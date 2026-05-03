@@ -17,6 +17,16 @@ This repository contains the core logic for simulating the "12 Angry Men" jury d
 - **Vote Tracking**: Automated extraction and tracking of votes during deliberation.
 - **Ablation Support**: Built-in support for different experimental conditions (Baseline, No Initial Vote, Open-Minded).
 
+## Research Highlights
+
+A fascinating new paper, **"12 Angry AI Agents,"** tests multi-agent LLM decision-making by putting AI in the jury box. The results expose a massive blind spot in current AI systems regarding how they collaborate and change their minds:
+
+- 🔒 **The Anchoring Effect is Real**: Out of 18 deliberation runs, 17 ended in a "hung jury". LLMs stubbornly anchor to their initial positions.
+- ⚖️ **Alignment Makes AIs Rigid**: GPT-4o (highly aligned) was incredibly inflexible, averaging just 1.0 vote change per run.
+- 🏆 **The Only Verdict**: Llama-4-Scout was the only model capable of reaching a unanimous "Not Guilty" verdict in specific scenarios.
+- 📉 **Bigger Isn't Always Better**: Flexibility, not raw capability, is what mimics human persuasion. Heavy RLHF can make AI a rigid collaborator.
+- 🗣️ **Parallel Monologues**: Agents often talk past each other without true social mechanisms for mind-changing.
+
 ## Usage
 
 This framework is built on [AutoGen](https://github.com/microsoft/autogen). To run a deliberation, you'll need to initialize the agents using the `JurorFactory` and pass them to the `DeliberationEngine`.
