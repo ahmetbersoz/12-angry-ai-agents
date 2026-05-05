@@ -43,18 +43,20 @@ from src.deliberation.engine import DeliberationEngine
 ## Explore More
 
 - **Project Page**: [https://ahmetbersoz.github.io/12-angry-ai-agents/](https://ahmetbersoz.github.io/12-angry-ai-agents/)
+- **Paper**: [Read the paper here](https://arxiv.org/abs/2605.01986)
 - **Experiment Transcripts**: [Explore all 18 transcripts here](https://ahmetbersoz.github.io/12-angry-ai-agents/transcripts.html)
+
 
 ## Citation
 
 If you use this framework or the paper's findings in your research, please cite:
 
 ```bibtex
-@article{ersoz2024twelveangry,
+@article{ersoz2026,
   title={12 Angry AI Agents: Evaluating Multi-Agent LLM Decision-Making Through Cinematic Jury Deliberation},
-  author={Ersoz, Ahmet},
-  journal={arXiv preprint arXiv:2405.xxxxx},
-  year={2024},
-  url={https://github.com/ahmetbersoz/12-angry-ai-agents}
+  author={Ersoz, Ahmet Bahaddin},
+  journal={arXiv preprint arXiv:2605.01986},
+  year={2026},
+  url={https://doi.org/10.48550/arXiv.2605.01986}
 }
 ```
